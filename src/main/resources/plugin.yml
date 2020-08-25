@@ -1,0 +1,8 @@
+name: Battle
+version: 0.1
+main: de.dubsteet.battle.Battle
+
+commands:
+  start:
+    usage: /start
+    description: starts the game
