@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Battle extends JavaPlugin {
 
-    public enum Gamephase {PREGAME, GAME, END}
+    public enum Gamephase {PREGAME, GRACE, GAME, END}
     public static Gamephase currentGamephase;
     public static String prefix = "[Battle] ";
 
